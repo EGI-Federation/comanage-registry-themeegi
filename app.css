@@ -350,6 +350,7 @@ footer {
   text-align: center;
   color: #333;
   background: white;
+  width: auto;
 }
 .ssp-footer * {
   font-weight: 300;
@@ -361,4 +362,52 @@ footer {
 
 #main {
   width: 1%;
+}
+
+
+.ssp-footer__item__logo {
+  height: 40px;
+}
+
+.ssp-footer__item__logo--eu {
+  height: 30px;
+  margin-left:12px;
+}
+
+footer .full-text {
+  padding: 0;
+}
+
+footer .full-text .mdl-cell {
+  margin: 0;
+}
+
+.ssp-footer__item__links {
+  text-align: right;
+}
+
+.ssp-footer__item__links a{
+  margin-right: 12px;
+  display:inline-block;
+  line-height: 50px;
+  vertical-align: baseline;
+}
+
+.ssp-footer a:hover {
+  text-decoration: underline;
+}
+
+.ssp-footer .mdl-cell__images a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 839px) {
+  .ssp-footer__item__links {
+    text-align: center;
+  }
+  .ssp-footer__item__links a {
+    margin: 0 6px;
+    line-height: 25px;
+  }
+
 }
