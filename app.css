@@ -17,6 +17,7 @@ h1 {
   margin: 20px 0;
 }
 
+body.logged-out .mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__header-row,
 .mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__header-row {
   text-align: center;
   padding: 0;
