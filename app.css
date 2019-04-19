@@ -248,7 +248,9 @@ html .ui-button.ui-state-disabled:active {
 #user-menu a.topMenu {
   color: #222;
 }
-
+body.logged-in #user-menu {
+  position: relative;
+}
 .corner-ribbon {
   width: 200px;
   background: #e43;
