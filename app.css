@@ -245,7 +245,8 @@ html .ui-button.ui-state-disabled:active {
     position: static;
   }
 }
-#user-menu a.topMenu {
+#user-menu a.topMenu, 
+#user-menu #global-search {
   color: #222;
 }
 body.logged-in #user-menu {
@@ -413,4 +414,6 @@ footer .full-text .mdl-cell {
     line-height: 25px;
   }
 
+#skip-to-content-box {
+  display: none;
 }
