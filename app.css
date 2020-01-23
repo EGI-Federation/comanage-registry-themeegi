@@ -131,6 +131,16 @@ ul.form-list textarea:focus {
   background: #599adb;
 }
 
+.co-info-topbox a {
+  color: white;
+  text-decoration: underline;
+}
+
+.co-info-topbox a:hover {
+  color: white;
+  opacity: 0.8;
+}
+
 #pagination {
   background: transparent;
   color: #333;
