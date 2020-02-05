@@ -132,12 +132,14 @@ ul.form-list textarea:focus {
 }
 
 .co-info-topbox a {
-  color: white;
-  text-decoration: underline;
+  color: #0067b1;
+  font-weight: bold;
+  #text-decoration: underline;
 }
 
 .co-info-topbox a:hover {
   color: white;
+  font-weight: bold;
   opacity: 0.8;
 }
 
