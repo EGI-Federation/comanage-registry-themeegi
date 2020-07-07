@@ -119,9 +119,28 @@ ul.form-list textarea:focus {
   box-shadow: none;
 }
 
+.mdl-button--colored[disabled][disabled]:hover,
+.mdl-button--colored.mdl-button--disabled.mdl-button--disabled:hover {
+  color: rgba(0,0,0,.26) ;
+  background-color: rgba(0,0,0,.12);
+  border-color: #599adb;
+}
+
 .co-info-topbox {
   color: white;
   background: #599adb;
+}
+
+.co-info-topbox a {
+  color: #0067b1;
+  font-weight: bold;
+  #text-decoration: underline;
+}
+
+.co-info-topbox a:hover {
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
 }
 
 #pagination {
@@ -245,10 +264,13 @@ html .ui-button.ui-state-disabled:active {
     position: static;
   }
 }
-#user-menu a.topMenu {
+#user-menu a.topMenu, 
+#user-menu #global-search {
   color: #222;
 }
-
+body.logged-in #user-menu {
+  position: relative;
+}
 .corner-ribbon {
   width: 200px;
   background: #e43;
@@ -411,4 +433,6 @@ footer .full-text .mdl-cell {
     line-height: 25px;
   }
 
+#skip-to-content-box {
+  display: none;
 }

@@ -12,7 +12,7 @@ After naming the new theme, do the following:
 - Leave **Hide Title** unchecked.
 - Check **Hide Footer Logo** option.
 - Insert into **Header** the contents of the file `header.html`.
-- Insert into **Footer** textarea the contents of the file `footer.html`. Be sure to change the links according to your needs.
+- Insert into **Footer** textarea the contents of the file `footer.html`. Be sure to change the links and the images paths according to your needs.
 - Copy the contents of `app.css` to **CSS** textarea.
 
 Once you have saved the new theme, go to `Home -> COmanage -> CO Settings` and select the new theme from the **Theme** dropdown.
