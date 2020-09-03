@@ -50,6 +50,8 @@ ul.form-list li:nth-child(even) {
 }
 
 ul.form-list textarea,
+ul.form-list input[type="number"],
+ul.form-list input[type="password"],
 ul.form-list input[type="text"] {
   display: block;
   width: 100%;
@@ -264,7 +266,7 @@ html .ui-button.ui-state-disabled:active {
     position: static;
   }
 }
-#user-menu a.topMenu, 
+#user-menu a.topMenu,
 #user-menu #global-search {
   color: #222;
 }
@@ -359,6 +361,10 @@ footer {
   background-image: url("/registry/js/jquery/jquery-ui-1.11.4.custom/images-comanage/ui-icons_ffffff_256x240.png");
 }
 
+#redirect-box {
+  position: unset;
+}
+
 footer {
   position: relative;
 }
@@ -432,11 +438,13 @@ footer .full-text .mdl-cell {
   .ssp-footer__item__links {
     text-align: center;
   }
+
   .ssp-footer__item__links a {
     margin: 0 6px;
     line-height: 25px;
   }
 
-#skip-to-content-box {
-  display: none;
+  #skip-to-content-box {
+    display: none;
+  }
 }
