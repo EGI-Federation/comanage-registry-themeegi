@@ -357,6 +357,11 @@ footer {
   margin-left: 20px !important;
 }
 
+#coSpinner .spinner,
+body.co_petitions .ui-dialog {
+  position: fixed !important;
+}
+
 .pages .ui-icon {
   background-image: url("/registry/js/jquery/jquery-ui-1.11.4.custom/images-comanage/ui-icons_ffffff_256x240.png");
 }
