@@ -128,6 +128,14 @@ ul.form-list textarea:focus {
   border-color: #599adb;
 }
 
+#org-action-menu .mdl-menu__container {
+   top: 35px !important;
+}
+
+#org-action-menu .mdl-menu__container a {
+   padding-top: 0.8em;
+}
+
 .co-info-topbox {
   color: white;
   background: #599adb;
