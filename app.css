@@ -53,7 +53,7 @@ ul.form-list textarea,
 ul.form-list input[type="number"],
 ul.form-list input[type="password"],
 ul.form-list input[type="text"] {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: .375rem .75rem;
   font-size: 1rem;
