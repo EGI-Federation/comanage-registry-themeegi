@@ -349,6 +349,12 @@ footer {
   width: 100%;
 }
 
+#voms_members_list .ui-accordion .ui-accordion-header .ui-accordion-header-icon,
+#co_people .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  /* override jquery default icon positioning */
+  top: 0.7em;
+}
+
 #navigation-drawer {
   position: static;
   width: 240px;
