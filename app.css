@@ -94,6 +94,10 @@ ul.form-list textarea:focus {
   color: #4b4b4b;
 }
 
+.notification-created {
+  color: #666;
+}
+
 .mdl-button {
   border-radius: 0;
   font-weight: 300;
